@@ -6,10 +6,8 @@
 
     "dependencies": {
         "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
-        "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
         "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
         "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final",
-        "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
         "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
         "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
         "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc1-final",
@@ -17,12 +15,11 @@
         "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
         "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
         "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
-        "Microsoft.ServiceFabric.AspNet.Hosting": "1.0.0-rc1",
-        "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final"
+        "Microsoft.ServiceFabric.AspNet.Hosting": "1.0.0-rc1"
     },
 
     "commands": {
-        "web": "Microsoft.AspNet.Server.Kestrel"
+        "web": "Microsoft.AspNet.Server.WebListener"
     },
 
     "frameworks": {
